@@ -12,37 +12,37 @@ By the end of this Sub-Task, you will probably have exhausted the supply of jump
 
 [[Figure7]]
 .A single pushbutton that will light the LED when pressed.
-image::attachments/Figure7.JPG[scaledwidth="90%"]
+image::attachments/task0301.jpg[scaledwidth="90%"]
 
 Add the pushbutton to the mini breadboard by inserting it so that the distance between the two top legs is a single hole (on a single row) and the distance between a top and a bottom leg has two holes between it (spanning four rows altogether).  A closeup of this can be seen in <<Figure8>>.
 
 [[Figure8]]
 .The pushbutton is inserted into the mini breadboard a specific way.
-image::attachments/Figure8.JPG[scaledwidth="90%"]
+image::attachments/task0302.jpg[scaledwidth="90%"]
 
 <<Figure9>> shows the pushbutton inserted into the mini breadboard.  Make certain to leave the left-most hole open on the top and bottom row where the pushbutton is inserted.  (These will be used to add jumper wires.)
 
 [[Figure9]]
 .Leave an empty hole to the left of the top row and bottom row of the pushbutton. 
-image::attachments/Figure9.JPG[scaledwidth="90%"]
+image::attachments/task0303.jpg[scaledwidth="90%"]
 
 Connect two jumper wires to the pushbutton as shown in <<Figure10>>.  One jumper wire is inserted in the first hole at the top row of the pushbutton and the second jumper wire is inserted in the empty bottom row of the mini breadboard.
 
 [[Figure10]]
 .Jumper wires will be needed to connect the pushbutton to the MintDuino.
-image::attachments/Figure10.JPG[scaledwidth="90%"]
+image::attachments/task0304.jpg[scaledwidth="90%"]
 
 Next, add a single 100ohm resistor (this resistor will be referred to as RES2 to the mini breadboard as shown in <<Figure11>>.  This resistor (RES2) will have one of its leads inserted into the row where the first resistor (RES1) is inserted and the jumper wire goes to GND.  The other lead for RES2 can be inserted in a row just above the pushbutton.
 
 [[Figure11]]
 .Add a second resistor (RES2) to serve as a pulldown resistor for the pushbutton.
-image::attachments/Figure11.JPG[scaledwidth="90%"]
+image::attachments/task0305.jpg[scaledwidth="90%"]
 
 As shown in <<Figure12>>, insert the top jumper wire of the pushbutton into the row containing only a RES2 lead (not the row that shares GND with RES1) and insert the bottom jumper wire of the pushbutton into the bottom (empty) row of the mini breadboard (which will serve as +5V supply for the mini breadboard).
 
 [[Figure12]]
 .Wire up the pushbutton to GND and to +5V.
-image::attachments/Figure12.JPG[scaledwidth="90%"]
+image::attachments/task0306.jpg[scaledwidth="90%"]
 
 Finally, add two more jumper wires—insert the red one into the bottom row of the mini breadboard and connect it to +5V on the MintDuino—we’ll call this the JUMPV.  Insert the other jumper wire where the pushbutton’s top jumper wire and RES2 are inserted. Then connect this new jumper wire to Digital Pin 4 (or Pin 6 on the ATmega chip)—we’ll call this JUMP4. This corresponds to Row 14 on the MintDuino (only if you’ve taken care to wire it up exactly as the online instructions specify).  You can plug that jumper wire into any free hole from a through e on Row 14. Both of these new jumper wires can be seen in <<Figure13>>.
 
@@ -52,7 +52,7 @@ It's hard to see for sure, but in the photo, it looks like it's plugged into pin
 
 [[Figure13]]
 .Connect the circuit to the MintDuino.
-image::attachments/Figure13.JPG[scaledwidth="90%"]
+image::attachments/task0307.jpg[scaledwidth="90%"]
 
 Now you will program the the LED to light up after the pushbutton is pressed.  You can download the program for Sub-Task 3 at [URL here] or simply enter the code below into the Arduino IDE:
 
