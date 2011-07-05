@@ -12,19 +12,25 @@ Update the LED description when we add another green LED to the pack
 Sub-Task 4 will add to the circuit you assembled for Sub-Task3 by introducing a second pushbutton component and two new LEDs to the mini breadboard. You can see these components in <<Figure14>>. 
 
 [[Figure14]]
+
 .An additional pushbutton and two LEDs will be added.
+
 image::attachments/task0401.jpg[scaledwidth="90%"]
 
 Let's build it. Insert the second pushbutton (we’ll call it PUSH2; we'll call the one that's already in there PUSH1) on the opposite side of the mini breadboard as shown in <<Figure15>>.
 
 [[Figure15]]
+
 .Insert the second pushbutton on the opposite side of the mini breadboard.
+
 image::attachments/task0402.jpg[scaledwidth="90%"]
 
 Now we’ll insert one LED for each player.  Each LED will be placed above a pushbutton as shown in <<Figure16>>.  Insert each LED so that the long lead (anode) is on the row just above the pushbutton and the short lead (cathode) is on the row above that.
 
 [[Figure16]]
+
 .Each player will have an LED that corresponds to a pushbutton.
+
 image::attachments/task0403.jpg[scaledwidth="90%"]
 
 Now use two jumper wires to connect the cathode (short) leads from the two new LEDs to GND via pulldown resistors.  The jumper wire for the Player 1 LED's cathode (on the left, closest to the MintDuino) should go to RES2, the pulldown resistor for Button 1.  The jumper wire for the Player 2 LED will go to a new 100ohm pulldown resistor (referred to as RES3) for Button 2.  Insert one RES3 lead into an empty row on the mini breadboard and the other lead will go to GND where both RES1 and RES2 are connected.  This can all be seen in <<Figure17>>.
@@ -38,7 +44,9 @@ One more thing: it seems like the LEDs should have their own pulldowns. When the
 ////
 
 [[Figure17]]
+
 .Connect new LEDs to GND with a pulldown resistor.
+
 image::attachments/task0404.jpg[scaledwidth="90%"]
 
 Next you’ll connect the anode (long) lead from each LED to the ATmega chip.  Connect the Player 1 (on the left side of the mini breadboard) LED to the ATmega chip with a jumper wire going to Digital Pin 1 (pin 3 on the ATmega chip) and connect the Player 2 LED to the ATmega chip with a jumper wire going to Digital Pin 2 (pin 4 on the ATmega chip).  <<Figure18>> shows the two new jumper wires connecting the LEDs to the MintDuino.
@@ -48,7 +56,9 @@ I'd suggest avoiding the use of digital pin 1 if you can, since it's used by ser
 ////
 
 [[Figure18]]
+
 .Connect LEDs to the MintDuino with jumper wires.
+
 image::attachments/task0405.jpg[scaledwidth="90%"]
 
 [NOTE]
@@ -67,7 +77,9 @@ It would be good to use red wire--both here and elsewhere in the book--to connec
 ////
 
 [[Figure19]]
+
 .Connect the Player 2 pushbutton to the MintDuino.
+
 image::attachments/task0406.jpg[scaledwidth="90%"]
 
 Now it’s time to program the MintDuino so that a player’s LED will light up when that player’s pushbutton is pressed.  You can download the program for Sub-Task 4 at [URL here] or simply enter the code below into the Arduino IDE:
