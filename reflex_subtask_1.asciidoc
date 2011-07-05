@@ -74,7 +74,7 @@ Plug the other jumper wire from the LED's cathode (-) into any hole on the GND c
 
 .MintDuino and mini breadboard circuit completed with jumper wires. 
 
-image::attachements/Figure4.JPG[scaledwidth="90%"]
+image::attachments/Figure4.JPG[scaledwidth="90%"]
 
 Now it’s time to upload the Sub-Task 1 program (sketch).  You can download this sketch from http://examples.oreilly.com/9781449307660/ or you can simply open your Arduino IDE and enter the following sketch/code:
 
