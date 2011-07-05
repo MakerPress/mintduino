@@ -17,13 +17,17 @@ Plus, you'll need the following components, all of which are available in the ht
 <<Figure1>> shows the components required to assemble Sub-Task 1.  You'll use the FTDI adapter later to upload the sketch to the MintDuino.
 
 [[Figure1]]
+
 .Components required to assemble circuit for Sub-Task 1
+
 image::attachments/task0101.jpg[scaledwidth="95%"]
 
 You'll start the assembly of Sub-Task 1 by inserting the LED and resistor (refer to this resistor as RES1 for all sub-tasks) into the mini breadboard as shown in <<Figure2>>.
  
 [[Figure2]]
+
 .Resistor (RES1) and LED inserted into the motherboard. 
+
 image::attachments/task0102.jpg[scaledwidth="90%"]
 
 Before you continue, there are a few things you need to know when using the mini breadboard:
@@ -52,7 +56,9 @@ You should have the reader use black wire for the connection to ground, or they 
 ////
 
 [[Figure3]]
+
 .Two jumper wires will connect the mini breadboard to the MintDuino. 
+
 image::attachments/task0103.jpg[scaledwidth="90%"]
 
 Now you’ll connect the two jumper wires to the MintDuino.  If you’ve built your MintDuino based on the online building instructions found at http://makeprojects.com/Project/How-to-build-a-Mintronics-MintDuino/608/1[Build a Mintronics: MintDuino] then you’ll want to connect the jumper wire connected to the LED’s anode (+) lead to Pin 13 on the ATmega 328 chip.  This corresponds to Row 21 on the MintDuino (again, if you’ve taken care to wire it up exactly as the online instructions specify).  You can plug that jumper wire into any free hole from a through e on Row 21.
@@ -65,7 +71,9 @@ Plug the other jumper wire from the LED's cathode (-) into any hole on the GND c
 <<Figure4>> shows the two jumper wires now connecting the mini breadboard to the MintDuino.
 
 [[Figure4]]
+
 .MintDuino and mini breadboard circuit completed with jumper wires. 
+
 image::attachements/Figure4.JPG[scaledwidth="90%"]
 
 Now it’s time to upload the Sub-Task 1 program (sketch).  You can download this sketch from http://examples.oreilly.com/9781449307660/ or you can simply open your Arduino IDE and enter the following sketch/code:
@@ -82,13 +90,17 @@ before you can upload a sketch. Can you update the text and the photo?  I've upd
 ////
 
 [[Figure5]]
+
 .Add the FTDI Friend (Adapter) to the MintDuino and upload the sketch. 
+
 image::attachments/Figure5.JPG[scaledwidth="90%"]
 
 After uploading the sketch to the MintDuino, leave the USB cable plugged into the FTDI/MintDuino and you should see a fast-flashing LED on the mini breadboard as shown in <<Figure6>>.
 
 [[Figure6]]
+
 .A flashing LED lets you know that the sketch is working.
+
 image::attachments/Figure6.JPG[scaledwidth="90%"]
 
 Leave the circuit wired up as you’ll use it again with Sub-Task 2 but unplug the USB cable connecting the FTDI/MintDuino to your computer.
