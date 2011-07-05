@@ -41,10 +41,6 @@ Take notice also that the LED has one leg that is shorter than the other.  The l
 
 Because you haven’t wired up power to the MintDuino yet, just remember (or jot down a note here) where the longer (+) lead of the LED is located.  If you're following along with the included images, you'll want to insert the longer (+) lead closer to the left side of the mini-breadboard; this is the side that will be closest to the MintDuino once it is finally connected to the mini-breadboard.
 
-////
-Regarding the above, I think it would be better to explicitly instruct the reader which side the long lead should go on, to avoid future confusion, and to allow them to visually  compare their circuit to yours. - Fixed by Jim June 21, 2011
-////
-
 [NOTE]
 One useful way to always remember how an LED is inserted into the mini breadboard is to insert the longer (+) lead closer to the MintDuino.  If you try to be consistent using this method, you’ll always be able to look at an inserted LED and determine which lead is the anode and which is the cathode.
 
@@ -81,11 +77,6 @@ Now it’s time to upload the Sub-Task 1 program (sketch).  You can download thi
 
 
 Connect the FTDI Friend (or other FTDI adapter) to your MintDuino as seen in <<Figure5>>.  This connects your computer to the MintDuino for uploading the sketch.  Remember that you'll need to provide power to the MintDuino using the 9V battery!
-
-////
-One thing is missing. The FTDI Friend won't supply power to the MintDuino, so you need to connect the battery
-before you can upload a sketch. Can you update the text and the photo?  I've updated the text and will try to reshoot a new photo soon. - Jim
-////
 
 [[Figure5]]
 

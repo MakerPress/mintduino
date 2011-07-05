@@ -72,10 +72,6 @@ I changed the pin numbering below (digital pin 5, atmega 11) because it wasn't r
 
 We now need to finish wiring up the Player 2 button (the Player 1 button keeps the same wiring from Sub-Task 3).  Use a jumper wire to connect the bottom lead of PUSH2 to the +5V row on the bottom of the mini breadboard.  Next, connect a jumper wire from the top lead of PUSH 2 to RES3 you added for the Player 2 LED.  Finally, add a jumper wire (we’ll call it JUMP5) that connects RES3 (for the Player 2 LED) to Digital Pin 5 (pin 11 on the ATmega chip).  <<Figure19>> shows the circuit for Sub-Task 4 wired up and ready for its program.
 
-////
-It would be good to use red wire--both here and elsewhere in the book--to connect anything to +5V. Black wire is best for GND. - I've added that suggested tip to an earlier subtask from your earlier comment - Jim
-////
-
 [[Figure19]]
 
 .Connect the Player 2 pushbutton to the MintDuino.
