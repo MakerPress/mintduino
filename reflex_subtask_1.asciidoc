@@ -74,7 +74,7 @@ Plug the other jumper wire from the LED's cathode (-) into any hole on the GND c
 
 .MintDuino and mini breadboard circuit completed with jumper wires. 
 
-image::attachments/Figure4.JPG[scaledwidth="90%"]
+image::attachments/task0104.jpg[scaledwidth="90%"]
 
 Now it’s time to upload the Sub-Task 1 program (sketch).  You can download this sketch from http://examples.oreilly.com/9781449307660/ or you can simply open your Arduino IDE and enter the following sketch/code:
 
@@ -93,7 +93,7 @@ before you can upload a sketch. Can you update the text and the photo?  I've upd
 
 .Add the FTDI Friend (Adapter) to the MintDuino and upload the sketch. 
 
-image::attachments/Figure5.JPG[scaledwidth="90%"]
+image::attachments/task0105.jpg[scaledwidth="90%"]
 
 After uploading the sketch to the MintDuino, leave the USB cable plugged into the FTDI/MintDuino and you should see a fast-flashing LED on the mini breadboard as shown in <<Figure6>>.
 
@@ -101,7 +101,7 @@ After uploading the sketch to the MintDuino, leave the USB cable plugged into th
 
 .A flashing LED lets you know that the sketch is working.
 
-image::attachments/Figure6.JPG[scaledwidth="90%"]
+image::attachments/task0106.jpg[scaledwidth="90%"]
 
 Leave the circuit wired up as you’ll use it again with Sub-Task 2 but unplug the USB cable connecting the FTDI/MintDuino to your computer.
 
