@@ -18,13 +18,13 @@ Plus, you'll need the following components, all of which are available in the ht
 
 [[Figure1]]
 .Components required to assemble circuit for Sub-Task 1
-image::attachments/Figure1.JPG[scaledwidth="90%"]
+image::attachments/task0101.jpg[scaledwidth="95%"]
 
 You'll start the assembly of Sub-Task 1 by inserting the LED and resistor (refer to this resistor as RES1 for all sub-tasks) into the mini breadboard as shown in <<Figure2>>.
  
 [[Figure2]]
 .Resistor (RES1) and LED inserted into the motherboard. 
-image::attachments/Figure2.JPG[scaledwidth="90%"]
+image::attachments/task0102.jpg[scaledwidth="90%"]
 
 Before you continue, there are a few things you need to know when using the mini breadboard:
 
@@ -53,7 +53,7 @@ You should have the reader use black wire for the connection to ground, or they 
 
 [[Figure3]]
 .Two jumper wires will connect the mini breadboard to the MintDuino. 
-image::attachments/Figure3.JPG[scaledwidth="90%"]
+image::attachments/task0103.jpg[scaledwidth="90%"]
 
 Now you’ll connect the two jumper wires to the MintDuino.  If you’ve built your MintDuino based on the online building instructions found at http://makeprojects.com/Project/How-to-build-a-Mintronics-MintDuino/608/1[Build a Mintronics: MintDuino] then you’ll want to connect the jumper wire connected to the LED’s anode (+) lead to Pin 13 on the ATmega 328 chip.  This corresponds to Row 21 on the MintDuino (again, if you’ve taken care to wire it up exactly as the online instructions specify).  You can plug that jumper wire into any free hole from a through e on Row 21.
 
