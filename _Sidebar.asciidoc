@@ -1,0 +1,7 @@
+[[ attachments/_Logo.png ]]
+
+== Useful Links
+* [[Home / TOC |home]]
+* https://github.com/MakerPress/gettingStartedGuide[View the Getting Started guide]
+* Create a figure
+* Generate EPUB preview
