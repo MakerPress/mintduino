@@ -6,7 +6,7 @@ Sub-Task 4 will require the following components beyond what you've already used
 * 2 LEDs (preferably green; the Survival Pack includes 1 green LED)
 
 ////
-Update the LED description when we add another green LED to the pack
+Update the LED description when we add another green LED to the pack - I will leave this comment as a reminder once the Survival Pack has been upgraded - Jim 7/8/11
 ////
 
 Sub-Task 4 will add to the circuit you assembled for Sub-Task3 by introducing a second pushbutton component and two new LEDs to the mini breadboard. You can see these components in <<Figure14>>. 
@@ -35,25 +35,13 @@ image::attachments/task0403.jpg[scaledwidth="90%"]
 
 Now use two jumper wires to connect the cathode (short) leads from the two new LEDs to GND via pulldown resistors.  The jumper wire for the Player 1 LED's cathode (on the left, closest to the MintDuino) should go to RES2, the pulldown resistor for Button 1.  The jumper wire for the Player 2 LED will go to a new 100ohm pulldown resistor (referred to as RES3) for Button 2.  Insert one RES3 lead into an empty row on the mini breadboard and the other lead will go to GND where both RES1 and RES2 are connected.  This can all be seen in <<Figure17>>.
 
-////
-At this point, things are getting a bit confusing. A circuit diagram would be helpful. I suggest Fritzing, which you can get for free at http://fritzing.org. It allows you draw schematics that look a lot like the real thing. It does have a component for Arduino, which I feel would be reasonable to use here even though this is not technically an Arduino.
-
-Also, did the LEDs move between Figure16.JPG and Figure17.JPG? It looks like they both moved to the left one or two columns.
-
-One more thing: it seems like the LEDs should have their own pulldowns. When the button is closed, you're effectively putting 5v onto the cathode of the LED, right? I suppose that's fine, but what impact will the LED have on the ATMega pin that's connected to the pulldown? The answers might be clearer to me if I could see a schematic. - Will work on a schematic shortly - Jim
-////
-
 [[Figure17]]
 
 .Connect new LEDs to GND with a pulldown resistor.
 
 image::attachments/task0404.jpg[scaledwidth="90%"]
 
-Next you’ll connect the anode (long) lead from each LED to the ATmega chip.  Connect the Player 1 (on the left side of the mini breadboard) LED to the ATmega chip with a jumper wire going to Digital Pin 1 (pin 3 on the ATmega chip) and connect the Player 2 LED to the ATmega chip with a jumper wire going to Digital Pin 2 (pin 4 on the ATmega chip).  <<Figure18>> shows the two new jumper wires connecting the LEDs to the MintDuino.
-
-////
-I'd suggest avoiding the use of digital pin 1 if you can, since it's used by serial tx when programming the chip. It probably won't cause a problem, but it could. No need to use it when you have so many other pins at your disposal. - I can change that - Jim
-////
+Next you’ll connect the anode (long) lead from each LED to the ATmega chip.  Connect the Player 1 (on the left side of the mini breadboard) LED to the ATmega chip with a jumper wire going to Digital Pin 5 (pin 11 on the ATmega chip) and connect the Player 2 LED to the ATmega chip with a jumper wire going to Digital Pin 6 (pin 12 on the ATmega chip).  <<Figure18>> shows the two new jumper wires connecting the LEDs to the MintDuino.
 
 [[Figure18]]
 
@@ -67,10 +55,10 @@ The jumper wires are starting to crowd the mini breadboard at this point, so fee
 ====
 
 ////
-I changed the pin numbering below (digital pin 5, atmega 11) because it wasn't right.
+I changed the pin numbering below (digital pin 5, atmega 11) because it wasn't right. -- I changed it back to digital pin 3, atmega 5 -- not sure what happened here, but I think this is still correct - we'll need someone to build the circuit completely starting with subtask 3 and moving into subtask 4 here just to be sure - Jim 7/8/11
 ////
 
-We now need to finish wiring up the Player 2 button (the Player 1 button keeps the same wiring from Sub-Task 3).  Use a jumper wire to connect the bottom lead of PUSH2 to the +5V row on the bottom of the mini breadboard.  Next, connect a jumper wire from the top lead of PUSH 2 to RES3 you added for the Player 2 LED.  Finally, add a jumper wire (we’ll call it JUMP5) that connects RES3 (for the Player 2 LED) to Digital Pin 5 (pin 11 on the ATmega chip).  <<Figure19>> shows the circuit for Sub-Task 4 wired up and ready for its program.
+We now need to finish wiring up the Player 2 button (the Player 1 button keeps the same wiring from Sub-Task 3).  Use a jumper wire to connect the bottom lead of PUSH2 to the +5V row on the bottom of the mini breadboard.  Next, connect a jumper wire from the top lead of PUSH 2 to RES3 you added for the Player 2 LED.  Finally, add a jumper wire (we’ll call it JUMP5) that connects RES3 (for the Player 2 LED) to Digital Pin 3 (pin 5 on the ATmega chip).  <<Figure19>> shows the circuit for Sub-Task 4 wired up and ready for its program.
 
 [[Figure19]]
 

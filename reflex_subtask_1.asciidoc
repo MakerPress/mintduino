@@ -48,10 +48,6 @@ I’ve also inserted RES1 so that one of its leads shares a row with the cathode
 
 Next, you’ll use two jumper wires to connect the mini breadboard to the MintDuino. Insert one jumper wire into the same row as the LED’s anode lead.  Insert the other wire into the same row as RES1's non-shared lead (the lead not shared by the LED’s cathode lead).  This is shown in <<Figure3>>. Black wire is often chosen when making connections to GND and red wire is typically selected for making connections to voltage/power; feel free to use these colors for the jumper wires if you have them (or if you have the Survival Pack), but it is not required.
 
-////
-You should have the reader use black wire for the connection to ground, or they will run out of the blue wire in Subtask 3. (that's assuming they are using the Survival pack). - I wasn't making assumptions about the type or color of wire the reader would be using but I'll add a note specifying the color if the reader has black. - Jim
-////
-
 [[Figure3]]
 
 .Two jumper wires will connect the mini breadboard to the MintDuino. 
@@ -75,6 +71,9 @@ image::attachments/task0104.jpg[scaledwidth="90%"]
 
 Now it’s time to upload the Sub-Task 1 program (sketch).  You can download this sketch from http://examples.oreilly.com/9781449307660/ or you can simply open your Arduino IDE and enter the following sketch/code:
 
+----
+include::attachments/SubTask2_draft1.0.pde[]
+----
 
 Connect the FTDI Friend (or other FTDI adapter) to your MintDuino as seen in <<Figure5>>.  This connects your computer to the MintDuino for uploading the sketch.  Remember that you'll need to provide power to the MintDuino using the 9V battery!
 

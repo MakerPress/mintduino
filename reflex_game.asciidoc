@@ -22,7 +22,7 @@ The complete Bill of Materials for this project is below, but you’ll find a pa
 * 2 LEDs (you can use any color you have handy)
 
 ////
-When the Survival kit starts to include more LEDs, edit the above and below as needed.
+When the Survival kit starts to include more LEDs, edit the above and below as needed. - I wasn't aware that the Survival Kit was going to get upgraded, so I'll leave this comment in as a reminder when it finally happens - Jim 7/8/11
 ////
 
 Plus, you'll need the following components, all of which are available in the http://www.makershed.com/ProductDetails.asp?ProductCode=MSTIN2[Mintronics: Survival Pack]:
