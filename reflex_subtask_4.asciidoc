@@ -41,7 +41,9 @@ Now use two jumper wires to connect the cathode (short) leads from the two new L
 
 image::attachments/task0404.jpg[scaledwidth="90%"]
 
-Next you’ll connect the anode (long) lead from each LED to the ATmega chip.  Connect the Player 1 (on the left side of the mini breadboard) LED to the ATmega chip with a jumper wire going to Digital Pin 5 (pin 11 on the ATmega chip) and connect the Player 2 LED to the ATmega chip with a jumper wire going to Digital Pin 6 (pin 12 on the ATmega chip).  <<Figure18>> shows the two new jumper wires connecting the LEDs to the MintDuino.
+Next you’ll connect the anode (long) lead from each LED to the ATmega chip.  Connect the Player 1 (on the left side of the mini breadboard) LED to the ATmega chip with a jumper wire going to Digital Pin 5 (pin 11 on the ATmega chip). This corresponds to Row 19 on the MintDuino (only if you’ve taken care to wire it up exactly as the online instructions specify). You can plug that jumper wire into any free hole from a through e on Row 19.
+
+Now, connect the Player 2 LED to the ATmega chip with a jumper wire going to Digital Pin 6 (pin 12 on the ATmega chip).  <<Figure18>> shows the two new jumper wires connecting the LEDs to the MintDuino. This corresponds to Row 20 on the MintDuino (again, only if it's wired up exactly as in the online instructions). Plug that jumper wire into any free hole from a through e on Row 20.
 
 [[Figure18]]
 
