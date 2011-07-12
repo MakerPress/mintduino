@@ -14,10 +14,9 @@ void loop() {
      lightLED();        // if it is, light the LED
    }
 }
-        
+
 void lightLED(){ // only called when the button state is HIGH (pressed)
   digitalWrite(ledPin, HIGH);
   delay(1000);
   digitalWrite(ledPin, LOW);
 }
-

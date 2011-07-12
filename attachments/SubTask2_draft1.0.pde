@@ -5,15 +5,15 @@ int ledWaitMin = 2000;  // Set minimum wait time to 2000 milliseconds
 void setup() {
 
     // use noise on pin 1 to generate a random number
-    randomSeed(analogRead(1)); 
-    
+    randomSeed(analogRead(1));
+
     pinMode(ledPin, OUTPUT);
 }
 void loop() {
 
     // add random time of 0-5 seconds
-    int ledWait = ledWaitMin + random(5000); 
-    
+    int ledWait = ledWaitMin + random(5000);
+
     // three fast blinks
     for (int count = 0; count < 3; count++) {
         digitalWrite(ledPin, HIGH);
@@ -21,7 +21,7 @@ void loop() {
         digitalWrite(ledPin, LOW);
         delay(250);
     }
-    
+
     delay(ledWait);  // random amount of time passes
     digitalWrite(ledPin, HIGH);
 
@@ -30,4 +30,3 @@ void loop() {
 
     delay(5000);    // wait 5 seconds before resetting
 }
-
