@@ -10,6 +10,7 @@ That's The Big Project, but let's break it down into four sub-tasks that will he
 Once we understand what's required to light LEDs, wait a random amount of time, and test for pushbuttons to be pressed, we can pull it all together and build the MintDuino Reflex Game.  The fact that we'll have multiple LEDS shouldn't be a problem - if we know how to light one, well... we can light two... or three.  And if we know how to determine if a pushbutton has been pressed, we can probably figure out how to detect which of two pushbuttons has been pressed.  Then we add some code to start the game, check for a pre-mature button push, and reset the game... and we're in business.
 
 anchor:bill_of_materials[]
+
 === The Parts You Need
 
 The complete Bill of Materials for this project is below, but you’ll find a partial list of components with each sub-task that contains only those items used in that particular section:
