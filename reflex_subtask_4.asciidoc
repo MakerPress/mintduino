@@ -9,33 +9,33 @@ Sub-Task 4 will require the following components beyond what you've already used
 Update the LED description when we add another green LED to the pack - I will leave this comment as a reminder once the Survival Pack has been upgraded - Jim 7/8/11
 ////
 
-Sub-Task 4 will add to the circuit you assembled for Sub-Task3 by introducing a second pushbutton component and two new LEDs to the mini breadboard. You can see these components in <<Figure14>>. 
+Sub-Task 4 will add to the circuit you assembled for Sub-Task3 by introducing a second pushbutton component and two new LEDs to the mini breadboard. You can see these components in <<Figure0401>>. 
 
-[[Figure14]]
+anchor:Figure0401:[]
 
 .An additional pushbutton and two LEDs will be added.
 
 image::attachments/task0401.jpg[scaledwidth="90%"]
 
-Let's build it. Insert the second pushbutton (we’ll call it PUSH2; we'll call the one that's already in there PUSH1) on the opposite side of the mini breadboard as shown in <<Figure15>>.
+Let's build it. Insert the second pushbutton (we’ll call it PUSH2; we'll call the one that's already in there PUSH1) on the opposite side of the mini breadboard as shown in <<Figure0402>>.
 
-[[Figure15]]
+anchor:Figure0402:[]
 
 .Insert the second pushbutton on the opposite side of the mini breadboard.
 
 image::attachments/task0402.jpg[scaledwidth="90%"]
 
-Now we’ll insert one LED for each player.  Each LED will be placed above a pushbutton as shown in <<Figure16>>.  Insert each LED so that the long lead (anode) is on the row just above the pushbutton and the short lead (cathode) is on the row above that.
+Now we’ll insert one LED for each player.  Each LED will be placed above a pushbutton as shown in <<Figure0403>>.  Insert each LED so that the long lead (anode) is on the row just above the pushbutton and the short lead (cathode) is on the row above that.
 
-[[Figure16]]
+anchor:Figure0403:[]
 
 .Each player will have an LED that corresponds to a pushbutton.
 
 image::attachments/task0403.jpg[scaledwidth="90%"]
 
-Now use two jumper wires to connect the cathode (short) leads from the two new LEDs to GND via pulldown resistors.  The jumper wire for the Player 1 LED's cathode (on the left, closest to the MintDuino) should go to RES2, the pulldown resistor for Button 1.  The jumper wire for the Player 2 LED will go to a new 100ohm pulldown resistor (referred to as RES3) for Button 2.  Insert one RES3 lead into an empty row on the mini breadboard and the other lead will go to GND where both RES1 and RES2 are connected.  This can all be seen in <<Figure17>>.
+Now use two jumper wires to connect the cathode (short) leads from the two new LEDs to GND via pulldown resistors.  The jumper wire for the Player 1 LED's cathode (on the left, closest to the MintDuino) should go to RES2, the pulldown resistor for Button 1.  The jumper wire for the Player 2 LED will go to a new 100ohm pulldown resistor (referred to as RES3) for Button 2.  Insert one RES3 lead into an empty row on the mini breadboard and the other lead will go to GND where both RES1 and RES2 are connected.  This can all be seen in <<Figure0404>>.
 
-[[Figure17]]
+anchor:Figure0404:[]
 
 .Connect new LEDs to GND with a pulldown resistor.
 
@@ -43,9 +43,9 @@ image::attachments/task0404.jpg[scaledwidth="90%"]
 
 Next you’ll connect the anode (long) lead from each LED to the ATmega chip.  Connect the Player 1 (on the left side of the mini breadboard) LED to the ATmega chip with a jumper wire going to Digital Pin 5 (pin 11 on the ATmega chip). This corresponds to Row 19 on the MintDuino (only if you’ve taken care to wire it up exactly as the online instructions specify). You can plug that jumper wire into any free hole from a through e on Row 19.
 
-Now, connect the Player 2 LED to the ATmega chip with a jumper wire going to Digital Pin 6 (pin 12 on the ATmega chip).  <<Figure18>> shows the two new jumper wires connecting the LEDs to the MintDuino. This corresponds to Row 20 on the MintDuino (again, only if it's wired up exactly as in the online instructions). Plug that jumper wire into any free hole from a through e on Row 20.
+Now, connect the Player 2 LED to the ATmega chip with a jumper wire going to Digital Pin 6 (pin 12 on the ATmega chip).  <<Figure0405>> shows the two new jumper wires connecting the LEDs to the MintDuino. This corresponds to Row 20 on the MintDuino (again, only if it's wired up exactly as in the online instructions). Plug that jumper wire into any free hole from a through e on Row 20.
 
-[[Figure18]]
+anchor:Figure0405:[]
 
 .Connect LEDs to the MintDuino with jumper wires.
 
@@ -60,9 +60,9 @@ The jumper wires are starting to crowd the mini breadboard at this point, so fee
 I changed the pin numbering below (digital pin 5, atmega 11) because it wasn't right. -- I changed it back to digital pin 3, atmega 5 -- not sure what happened here, but I think this is still correct - we'll need someone to build the circuit completely starting with subtask 3 and moving into subtask 4 here just to be sure - Jim 7/8/11
 ////
 
-We now need to finish wiring up the Player 2 button (the Player 1 button keeps the same wiring from Sub-Task 3).  Use a jumper wire to connect the bottom lead of PUSH2 to the +5V row on the bottom of the mini breadboard.  Next, connect a jumper wire from the top lead of PUSH 2 to RES3 you added for the Player 2 LED.  Finally, add a jumper wire (we’ll call it JUMP5) that connects RES3 (for the Player 2 LED) to Digital Pin 3 (pin 5 on the ATmega chip), which corresponds to row 13 on the MintDuino breadboard.  <<Figure19>> shows the circuit for Sub-Task 4 wired up and ready for its program.
+We now need to finish wiring up the Player 2 button (the Player 1 button keeps the same wiring from Sub-Task 3).  Use a jumper wire to connect the bottom lead of PUSH2 to the +5V row on the bottom of the mini breadboard.  Next, connect a jumper wire from the top lead of PUSH 2 to RES3 you added for the Player 2 LED.  Finally, add a jumper wire (we’ll call it JUMP5) that connects RES3 (for the Player 2 LED) to Digital Pin 3 (pin 5 on the ATmega chip), which corresponds to row 13 on the MintDuino breadboard.  <<Figure0406>> shows the circuit for Sub-Task 4 wired up and ready for its program.
 
-[[Figure19]]
+anchor:Figure0406:[]
 
 .Connect the Player 2 pushbutton to the MintDuino.
 

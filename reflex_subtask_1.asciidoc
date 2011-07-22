@@ -15,17 +15,17 @@ Plus, you'll need the following components, all of which are available in the ht
 * 1 Resistor 100 ohm (minimum)
 * 2 Jumper Wires
 
-<<Figure1>> shows the components required to assemble Sub-Task 1.  You'll use the FTDI adapter later to upload the sketch to the MintDuino.
+<<Figure0101>> shows the components required to assemble Sub-Task 1.  You'll use the FTDI adapter later to upload the sketch to the MintDuino.
 
-[[Figure1]]
+anchor:Figure0101[]
 
 .Components required to assemble circuit for Sub-Task 1
 
 image::attachments/task0101.jpg[scaledwidth="95%"]
 
-You'll start the assembly of Sub-Task 1 by inserting the LED and resistor (refer to this resistor as RES1 for all sub-tasks) into the mini breadboard as shown in <<Figure2>>.
+You'll start the assembly of Sub-Task 1 by inserting the LED and resistor (refer to this resistor as RES1 for all sub-tasks) into the mini breadboard as shown in <<Figure0101>>.
  
-[[Figure2]]
+anchor:Figure0102[]
 
 .Resistor (RES1) and LED inserted into the motherboard. 
 
@@ -34,7 +34,7 @@ image::attachments/task0102.jpg[scaledwidth="90%"]
 Before you continue, there are a few things you need to know when using the mini breadboard:
 
 * The mini breadboard does not have letters or numerals to label the various rows and columns (which the MintDuino’s breadboard does have).
-* When wiring, rotate the mini breadboard so that it is taller than it is wider (seen in <<Figure2>); with this orientation, each row is broken into two segments of five holes.
+* When wiring, rotate the mini breadboard so that it is taller than it is wider (seen in <<Figure0102>); with this orientation, each row is broken into two segments of five holes.
 * The five holes in each segment share a common connection point; when inserting components, make certain that leads are inserted in different segments and not in the same grouping of five holes or the component will be shorted.
 
 Take notice also that the LED has one leg that is shorter than the other.  The longer leg is referred to as the _anode_, or + lead (positive), and the shorter leg is referred to as the _cathode_ or – lead (negative).  When connecting an LED to a circuit, you must remember to connect the + lead to the voltage/supply side of a circuit and the – lead to the GND (ground) side of a circuit.
@@ -44,11 +44,11 @@ Because you haven’t wired up power to the MintDuino yet, just remember (or jot
 [NOTE]
 One useful way to always remember how an LED is inserted into the mini breadboard is to insert the longer (+) lead closer to the MintDuino.  If you try to be consistent using this method, you’ll always be able to look at an inserted LED and determine which lead is the anode and which is the cathode.
 
-I’ve also inserted RES1 so that one of its leads shares a row with the cathode (-) lead of the LED.  Notice in <<Figure2>> that RES1's other lead is inserted into an empty row on the mini breadboard just below the LED’s anode lead.
+I’ve also inserted RES1 so that one of its leads shares a row with the cathode (-) lead of the LED.  Notice in <<Figure0102>> that RES1's other lead is inserted into an empty row on the mini breadboard just below the LED’s anode lead.
 
-Next, you’ll use two jumper wires to connect the mini breadboard to the MintDuino. Insert one jumper wire into the same row as the LED’s anode lead.  Insert the other wire into the same row as RES1's non-shared lead (the lead not shared by the LED’s cathode lead).  This is shown in <<Figure3>>. Black wire is often chosen when making connections to GND and red wire is typically selected for making connections to voltage/power; feel free to use these colors for the jumper wires if you have them (or if you have the Survival Pack), but it is not required.
+Next, you’ll use two jumper wires to connect the mini breadboard to the MintDuino. Insert one jumper wire into the same row as the LED’s anode lead.  Insert the other wire into the same row as RES1's non-shared lead (the lead not shared by the LED’s cathode lead).  This is shown in <<Figure0103>>. Black wire is often chosen when making connections to GND and red wire is typically selected for making connections to voltage/power; feel free to use these colors for the jumper wires if you have them (or if you have the Survival Pack), but it is not required.
 
-[[Figure3]]
+anchor:Figure0103[]
 
 .Two jumper wires will connect the mini breadboard to the MintDuino. 
 
@@ -61,9 +61,9 @@ Pin 13 corresponds to Digital Pin 7 – this information will be required shortl
 
 Plug the other jumper wire from the LED's cathode (-) into any hole on the GND column of the MintDuino.  Double-check this and make absolute certain that you’ve connected it to a GND column and not the PWR (5v or 3.3v) column.
 
-<<Figure4>> shows the two jumper wires now connecting the mini breadboard to the MintDuino.
+<<Figure0104>> shows the two jumper wires now connecting the mini breadboard to the MintDuino.
 
-[[Figure4]]
+anchor:Figure0104[]
 
 .MintDuino and mini breadboard circuit completed with jumper wires. 
 
@@ -75,17 +75,17 @@ Now it’s time to upload the Sub-Task 1 program (sketch).  You can download thi
 include::attachments/SubTask2_draft1.0.pde[]
 ----
 
-Connect the FTDI Friend (or other FTDI adapter) to your MintDuino as seen in <<Figure5>>.  This connects your computer to the MintDuino for uploading the sketch.  Remember that you'll need to provide power to the MintDuino using the 9V battery!
+Connect the FTDI Friend (or other FTDI adapter) to your MintDuino as seen in <<Figure0105>>.  This connects your computer to the MintDuino for uploading the sketch.  Remember that you'll need to provide power to the MintDuino using the 9V battery!
 
-[[Figure5]]
+anchor:Figure0105[]
 
 .Add the FTDI Friend (Adapter) to the MintDuino and upload the sketch. 
 
 image::attachments/task0105.jpg[scaledwidth="90%"]
 
-After uploading the sketch to the MintDuino, leave the USB cable plugged into the FTDI/MintDuino and you should see a fast-flashing LED on the mini breadboard as shown in <<Figure6>>.
+After uploading the sketch to the MintDuino, leave the USB cable plugged into the FTDI/MintDuino and you should see a fast-flashing LED on the mini breadboard as shown in <<Figure0106>>.
 
-[[Figure6]]
+anchor:Figure0106[]
 
 .A flashing LED lets you know that the sketch is working.
 
