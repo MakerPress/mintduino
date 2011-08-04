@@ -32,7 +32,7 @@ Plus, you'll need the following components, all of which are available in the ht
 * 1 Mini breadboard
 * 1 9V battery connector
 * 3 Resistors (100 ohm minimum)
-* 13 Jumper Wires
+* Jumper wires (you'll find enough in the Survival Pack to get you started, but you'll need to dip into the jumper wire kit soon)
 * 2 Pushbuttons
 * Enough jumper wire to get you through Sub-Task 3.
 
